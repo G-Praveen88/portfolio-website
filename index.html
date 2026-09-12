@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of G.Praveen - Aspiring Full Stack Web Developer. Showcasing projects, skills, education, and contact information.">
+  <title>G.Praveen | Aspiring Full Stack Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ================================================================= -->
+  <!-- SKIP TO MAIN CONTENT LINK (Accessibility)                        -->
+  <!-- ================================================================= -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ================================================================= -->
+  <!-- 1. HEADER & NAVIGATION                                           -->
+  <!-- ================================================================= -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Home">
+        <span class="logo-accent">&lt;</span>G.Praveen<span class="logo-accent"> /&gt;</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button 
+        type="button"
+        class="nav-toggle" 
+        id="nav-toggle" 
+        aria-expanded="false" 
+        aria-controls="primary-navigation" 
+        aria-label="Toggle navigation menu"
+      >
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Primary Navigation Links -->
+      <nav id="primary-navigation" class="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================================================================= -->
+  <!-- MAIN CONTENT AREA                                                -->
+  <!-- ================================================================= -->
+  <main id="main-content" tabindex="-1">
+
+    <!-- =============================================================== -->
+    <!-- 2. HERO SECTION                                                 -->
+    <!-- =============================================================== -->
+    <section id="home" class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 id="hero-heading" class="hero-name">G.Praveen</h1>
+          <h2 class="hero-role">Aspiring Full Stack Web Developer</h2>
+          <p class="hero-description">
+            Passionate computer science student and web development intern at 
+            <strong>ApexPlanet Software Pvt. Ltd.</strong> Building clean, responsive, 
+            and accessible web experiences with HTML5, CSS3, and JavaScript, with a strong 
+            foundation in full stack engineering.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="avatar-wrapper">
+            <!-- Responsive SVG Profile Avatar Placeholder -->
+            <img 
+              src="assets/profile-placeholder.svg" 
+              alt="Profile portrait placeholder for G.Praveen" 
+              class="hero-avatar"
+              width="360"
+              height="360"
+              loading="eager"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 3. ABOUT SECTION                                                -->
+    <!-- =============================================================== -->
+    <section id="about" class="section about-section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Get to know me</p>
+          <h2 id="about-heading" class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hello! I am a passionate student pursuing my 
+              <strong>B.Tech(Artificial Intelligence & Machine Learning)</strong> at <strong>Sreenidhi Institute Of Science And Technology</strong>, based in 
+              <strong>Yamnampet,Ghatkesar,Medchal-Malkajgiri</strong>.
+            </p>
+            <p>
+              Currently, I am working on the 60-Day Full Stack Web Development Internship at 
+              <strong>ApexPlanet Software Pvt. Ltd.</strong> (Task 1: Foundation &amp; Environment Setup). 
+              My goal is to master both frontend and backend technologies, writing clean, semantic, 
+              and well-tested code that delivers meaningful value to users.
+            </p>
+            <p>
+              I've also completed three machine learning tasks through the <strong>Future Interns</strong> program, 
+              each tackling a different problem: 
+              <a href="https://github.com/G-Praveen88/FUTURE_ML_01" target="_blank" rel="noopener noreferrer">sales &amp; demand forecasting</a> 
+              with time-series feature engineering, 
+              <a href="https://github.com/G-Praveen88/FUTURE_ML_02" target="_blank" rel="noopener noreferrer">customer support ticket classification</a> 
+              using NLP and TF-IDF, and a 
+              <a href="https://github.com/G-Praveen88/FUTURE_ML_03" target="_blank" rel="noopener noreferrer">resume screening system</a> 
+              that ranks candidates against role requirements.
+            </p>
+            <p>
+              When I'm not writing code or debugging CSS layouts, I enjoy exploring new web standards, 
+              solving algorithmic challenges, and learning industry best practices for responsive web design.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <article class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">🎯</div>
+              <h3 class="highlight-title">Focus &amp; Discipline</h3>
+              <p class="highlight-desc">Dedicated to structured learning, version control with Git, and semantic standards.</p>
+            </article>
+
+            <article class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">📱</div>
+              <h3 class="highlight-title">Responsive Design</h3>
+              <p class="highlight-desc">Crafting mobile-first layouts that adapt smoothly across smartphones, tablets, and desktops.</p>
+            </article>
+
+            <article class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">🚀</div>
+              <h3 class="highlight-title">Continuous Growth</h3>
+              <p class="highlight-desc">Eager to expand from foundational HTML, CSS, and JS into full stack PHP, MySQL, and modern workflows.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 4. SKILLS SECTION                                               -->
+    <!-- =============================================================== -->
+    <section id="skills" class="section skills-section" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">My Technical Toolkit</p>
+          <h2 id="skills-heading" class="section-title">Skills &amp; Technologies</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: HTML5 -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 3h16l-1.5 15.5L12 21l-6.5-2.5L4 3z" />
+                <path d="M8 8h8" />
+                <path d="M8 12h7" />
+                <path d="M9 16l3 1 3-1" />
+              </svg>
+            </div>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Semantic elements, form controls, media integration, and accessibility best practices.</p>
+            <span class="skill-badge">Core Frontend</span>
+          </article>
+
+          <!-- Skill 2: CSS3 -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 3h16l-1.5 15.5L12 21l-6.5-2.5L4 3z" />
+                <path d="M8 8h8l-.5 4.5H8.5" />
+                <path d="M8 16l4 1 4-1" />
+              </svg>
+            </div>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Flexbox, CSS Grid, media queries, CSS variables, transitions, and responsive typography.</p>
+            <span class="skill-badge">Styling &amp; Layout</span>
+          </article>
+
+          <!-- Skill 3: JavaScript -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M9 16c.5.8 1.2 1.2 2 1.2 1.2 0 1.8-.7 1.8-1.7V9" />
+                <path d="M15 15c.5.8 1.3 1.2 2.2 1.2 1.2 0 2-.6 2-1.5 0-2-4.2-1.5-4.2-3.5 0-.9.8-1.5 2-1.5.9 0 1.6.4 2 1.1" />
+              </svg>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">ES6+ syntax, DOM manipulation, client-side validation, event handling, and modern APIs.</p>
+            <span class="skill-badge">Vanilla JS</span>
+          </article>
+
+          <!-- Skill 4: PHP -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="12" rx="10" ry="7" />
+                <path d="M8 10h3a2 2 0 0 1 0 4H8v3" />
+                <path d="M13 10v7" />
+              </svg>
+            </div>
+            <h3 class="skill-name">PHP</h3>
+            <p class="skill-desc">Server-side fundamentals, control structures, modular scripts, and form handling.</p>
+            <span class="skill-badge">Backend Foundation</span>
+          </article>
+
+          <!-- Skill 5: MySQL -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+              </svg>
+            </div>
+            <h3 class="skill-name">MySQL</h3>
+            <p class="skill-desc">Relational database concepts, schema design, and foundational CRUD operations.</p>
+            <span class="skill-badge">Database</span>
+          </article>
+
+          <!-- Skill 6: Git -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="3" />
+                <circle cx="6" cy="6" r="3" />
+                <circle cx="6" cy="18" r="3" />
+                <path d="M6 9v6" />
+                <path d="M9 6h6a3 3 0 0 1 3 3v6" />
+              </svg>
+            </div>
+            <h3 class="skill-name">Git</h3>
+            <p class="skill-desc">Version control, atomic commits, branch management, and tracking development progress.</p>
+            <span class="skill-badge">Version Control</span>
+          </article>
+
+          <!-- Skill 7: GitHub -->
+          <article class="skill-card">
+            <div class="skill-icon-wrap" aria-hidden="true">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </div>
+            <h3 class="skill-name">GitHub</h3>
+            <p class="skill-desc">Remote repositories, GitHub Pages static hosting, issue tracking, and documentation.</p>
+            <span class="skill-badge">Deployment &amp; Hosting</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 5. PROJECTS SECTION                                             -->
+    <!-- =============================================================== -->
+    <section id="projects" class="section projects-section" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Showcase of Work</p>
+          <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio Website -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-tag">Internship Task 1</span>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                A responsive, accessible personal portfolio website built completely from scratch 
+                using pure HTML5, CSS3, and vanilla JavaScript. Features smooth navigation, 
+                dynamic client-side form validation, mobile navigation, and modern design standards.
+              </p>
+              <div class="tech-stack" aria-label="Technologies used in Project 1">
+                <span class="tech-pill">HTML5</span>
+                <span class="tech-pill">CSS3</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">GitHub Pages</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/G-Praveen88/portfolio-website" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub Code
+              </a>
+              <a href="https://g-praveen88.github.io/portfolio-website/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Fare Split -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-tag">Full Stack Development</span>
+              <h3 class="project-title">FARE SPLIT</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+  A complete UI/UX case study for Fare Split, a bill-splitting mobile app designed end-to-end in Figma. 
+  The app enables users to import contacts and split group expenses equally, while a built-in 
+  gamification system lets users earn coins through mini-games that can be redeemed for real 
+  discounts — encouraging engagement beyond simple bill-splitting. The project covers full interface 
+  design, user flows, navigation structure, and custom iconography.
+</p>
+              <div class="tech-stack" aria-label="Technologies used in Project 2">
+                <span class="tech-pill">Figma</span>
+<span class="tech-pill">UI/UX Design</span>
+<span class="tech-pill">Wireframing</span>
+<span class="tech-pill">Prototyping</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Cognifyz Machine Learning Internship -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-tag">Machine Learning</span>
+              <h3 class="project-title">Restaurant Data Science Suite</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                A machine learning internship project analyzing real-world restaurant data across three tasks:
+                a regression model predicting restaurant ratings (R² = 0.9550 using Random Forest, benchmarked
+                against Linear Regression and Decision Trees), a content-based restaurant recommendation engine
+                using TF-IDF and cosine similarity, and a cuisine classification model with an in-depth class
+                imbalance and bias analysis across 10 cuisine categories.
+              </p>
+              <div class="tech-stack" aria-label="Technologies used in Project 3">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">scikit-learn</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">Data Visualization</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/G-Praveen88/cognifyz-ml-internship" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub Code
+              </a>
+              <a href="https://github.com/G-Praveen88/cognifyz-ml-internship#readme" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                View Results
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 6. EDUCATION SECTION                                            -->
+    <!-- =============================================================== -->
+    <section id="education" class="section education-section" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Academic Background</p>
+          <h2 id="education-heading" class="section-title">Education</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Education Entry 1 -->
+          <article class="timeline-card">
+            <div class="timeline-badge" aria-hidden="true">🎓</div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="education-degree">B.Tech (Artificial Intelligence & Machine Learning)</h3>
+                <span class="education-year">2024-2028</span>
+              </div>
+              <p class="education-institution">SREENIDHI INSTITUTE OF SCIENCE AND TECHNOLOGY</p>
+              <p class="education-details">
+                Relevant Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming, 
+                Database Management Systems, Operating Systems, and Web Application Development.
+              </p>
+            </div>
+          </article>
+
+          <!-- Education Entry 2: Internship / Certification Foundation -->
+          <article class="timeline-card">
+            <div class="timeline-badge" aria-hidden="true">💼</div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="education-degree">Full Stack Web Development Internship (60-Day Program)</h3>
+                <span class="education-year">Current (2026)</span>
+              </div>
+              <p class="education-institution">ApexPlanet Software Pvt. Ltd.</p>
+              <p class="education-details">
+                Hands-on training covering HTML5, CSS3, JavaScript, PHP, MySQL, Git version control, 
+                and GitHub deployment. Structured into practical sprint tasks focusing on industry-level standards.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 7. CONTACT SECTION                                              -->
+    <!-- =============================================================== -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Get In Touch</p>
+          <h2 id="contact-heading" class="section-title">Contact Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details & Placeholders -->
+          <div class="contact-info">
+            <h3 class="contact-info-title">Let's Connect</h3>
+            <p class="contact-info-text">
+              I am open to internship opportunities, student collaborations, and full stack web development 
+              projects. Feel free to reach out directly through any of the channels below!
+            </p>
+
+            <ul class="contact-list" aria-label="Contact channels">
+              <!-- Email -->
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:praveengorre64@gmail.com" class="contact-value">praveengorre64@gmail.com</a>
+                </div>
+              </li>
+
+              <!-- Phone -->
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Phone</span>
+                  <a href="tel:+917382767287" class="contact-value">+91 7382767287</a>
+                </div>
+              </li>
+
+              <!-- Location -->
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Yamnampet,Ghatkesar,Medchal-Malkajgiri</span>
+                </div>
+              </li>
+
+              <!-- GitHub -->
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">GitHub</span>
+                  <a href="https://github.com/g-praveen88" class="contact-value" target="_blank" rel="noopener noreferrer">HTTPS://GITHUB.COM/G-PRAVEEN88</a>
+                </div>
+              </li>
+
+              <!-- LinkedIn -->
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/praveen-gorre" class="contact-value" target="_blank" rel="noopener noreferrer">HTTPS://LINKEDIN.COM/IN/PRAVEEN-GORRE</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right: Interactive Contact Form (Frontend Validated) -->
+          <div class="contact-form-wrapper">
+            <h3 class="contact-form-title">Send a Message</h3>
+            
+            <form id="contact-form" class="contact-form" novalidate>
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="contact-name" class="form-label">
+                  Your Full Name <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="contact-name" 
+                  name="name" 
+                  class="form-control" 
+                  placeholder="e.g. Alex Johnson" 
+                  autocomplete="name"
+                  required 
+                  aria-describedby="name-error"
+                >
+                <span class="error-text" id="name-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <label for="contact-email" class="form-label">
+                  Your Email Address <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="contact-email" 
+                  name="email" 
+                  class="form-control" 
+                  placeholder="e.g. alex@example.com" 
+                  autocomplete="email"
+                  required 
+                  aria-describedby="email-error"
+                >
+                <span class="error-text" id="email-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">
+                  Your Message <span class="required" aria-hidden="true">*</span>
+                </label>
+                <textarea 
+                  id="contact-message" 
+                  name="message" 
+                  class="form-control" 
+                  rows="5" 
+                  placeholder="Write your message here (minimum 10 characters)..." 
+                  required 
+                  aria-describedby="message-error"
+                ></textarea>
+                <span class="error-text" id="message-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" id="contact-submit" class="btn btn-primary btn-block">
+                Send Message
+              </button>
+
+              <!-- Form Live Status Container -->
+              <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+
+              <!-- Explicit Frontend Notice -->
+              <p class="form-disclaimer">
+                <small>ℹ️ Note: This form demonstrates client-side JavaScript validation for Task 1. Data is validated directly in your browser without requiring a backend server.</small>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================================================================= -->
+  <!-- 8. FOOTER                                                         -->
+  <!-- ================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <p class="footer-author"><strong>G.Praveen</strong></p>
+        <p class="footer-meta">
+          ApexPlanet Software Pvt. Ltd. &bull; 60-Day Full Stack Web Development Internship (Task 1)
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/g-praveen88" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
+        <a href="https://linkedin.com/in/praveen-gorre" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 G.Praveen. All rights reserved. Built with HTML5, CSS3, &amp; Vanilla JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================================================================= -->
+  <!-- SCROLL-TO-TOP BUTTON                                             -->
+  <!-- ================================================================= -->
+  <button type="button" id="scroll-to-top" class="scroll-top-btn" aria-label="Scroll to top of page" title="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <!-- JavaScript Execution -->
+  <script src="script.js"></script>
+</body>
+</html>
