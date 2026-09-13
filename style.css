@@ -1,4 +1,10 @@
-/* ==========================================================================
+/* ===================================================================
+   G.Praveen Portfolio — Stylesheet
+   Color scheme: dark navy/graphite base with blue accent
+   Layout: CSS Grid for page sections, Flexbox for nav/buttons/cards
+   Responsive breakpoints defined via media queries near bottom of file
+   =================================================================== */
+   /* ==========================================================================
    PERSONAL PORTFOLIO STYLESHEET
    Project: ApexPlanet Internship - Task 1 (Foundation & Environment Setup)
    Technologies: Pure CSS3 (Variables, Flexbox, CSS Grid, Media Queries)
